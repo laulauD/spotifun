@@ -1,0 +1,107 @@
+ /* Carrousel */
+
+ .box-shadow {
+    box-shadow: 0 8px 17px rgba(43, 196, 150, 0.644), 0 2px 2px rgba(52, 170, 131, 0.575);
+  }
+
+  .carrousel {
+    display: flex; 
+    margin: 3%;
+    height: 155px;
+    border-radius: 10px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .carrousel::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+    background: transparent;
+  }
+  .carrousel::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .carrousel::-webkit-scrollbar-thumb {
+    background: rgba(116, 115, 115, 0.651);
+    border-radius: 10px;
+  }
+   
+   .carrousel::-webkit-scrollbar-thumb:hover {
+    background:#289c41;
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    font-size: 12pt;
+  }
+  
+ .gray {
+    background: #0cebeb;  
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); 
+  } 
+  
+  .pink {
+    background: #B2FEFA;  
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA); 
+
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA); 
+     }
+  
+  .yellow {
+    background: #22c1c3;  
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); 
+  }
+  
+  .violet {
+    background: #34e89e;  
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  
+    background: linear-gradient(to right, #0f3443, #34e89e); 
+    }
+  
+  .green {
+    background: #77A1D3;  
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); 
+    
+  }
+  
+  figcaption{
+      font-size: 18pt;
+      color: rgba(0, 0, 0, 0.623);
+  }
+
+
+/* petits points */
+
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .link-box {
+    margin: 2rem auto;
+  }
+  
+  .link-box > a {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #1dc468b2;
+    margin: 0.3rem;
+    border: 3px solid transparent;
+    transition: color 0.1s ease-in-out;
+  }
+  
+  .link-box > a:hover {
+    color: #70f8ed;
+  }
+  
+  .link-box > a:active {
+    border: 3px solid #1ecf6e;
+  }

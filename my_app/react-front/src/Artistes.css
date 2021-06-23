@@ -1,0 +1,49 @@
+.artist{
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.eachArtists{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 17pt;
+
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+}
+
+.eachArtists p{
+    color: rgba(27, 28, 29, 0.918);
+}
+.artist img{
+    width: 250px;
+    margin: 20px;
+    border: 3px solid rgba(32, 30, 30, 0.63);
+}
+.artist img:hover{
+    transform: scale(0.8, 0.8);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+    -5px -5px 30px 15px rgba(31, 30, 30, 0.22);
+}
+
+
+/* ARTISTS DETAILS CSS */
+
+.title{
+    color: rgb(55, 192, 117);
+    text-decoration: overline;
+    padding: 1%;
+}
+.spaceBetween{
+    color: rgba(10, 29, 19, 0.89);
+    padding: 2%;
+    font-size: 14pt;
+}
+
+.imgScaleBig:hover{
+    opacity: 1;
+    transform: scale(1.04, 1.04);
+    box-shadow: 5px 5px 30px 15px rgba(36, 34, 34, 0.596);
+}
